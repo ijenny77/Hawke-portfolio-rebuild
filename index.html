@@ -12,14 +12,14 @@
 <body class="bg-[rgb(29,29,29)] font-[Sora]">
     <div class="flex sticky z-10 top-0 backdrop-blur-xl">
         <h1  class="px-32 pt-6 font-semibold text-2xl text-white pb-4" id="nameOfCompany">Hawke</h1>
-        <nav class="pt-6 pl-20 text-white">
-            <a class="px-5" href="#home">HOME</a>
-            <a class="px-5" href="#skills">ABOUT</a>
-            <a class="px-5" href="#services">SERVICES</a>
-            <a class="px-5" href="#portifolio">PORTIFOLIO</a>
-            <a class="px-5" href="#testimonials">TESTIMONIALS</a>
-            <a class="px-5" href="">BLOG</a>
-            <a class="px-5" href="">CONTACT</a>
+        <nav class="flex gap-10 pt-6 pl-20 text-white">
+            <a href="#home">HOME</a>
+            <a href="#skills">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portifolio">PORTIFOLIO</a>
+            <a href="#testimonials">TESTIMONIALS</a>
+            <a href="">BLOG</a>
+            <a href="">CONTACT</a>
         </nav>
         <button class="mx-20 mt-3 rounded p-2 text-black border border-white bg-white mb-4 text-sm hover:bg-[rgb(29,29,29)] hover:text-white">Hire Me!</button>
     </div>
@@ -43,6 +43,7 @@
                 <span class="text-white text-6xl pr-3">6K</span><span class="text-left pr-20">Clients <br>Worldwide</span>
                 <button class="border-2 border-white rounded p-3">Download C.V</button>
             </div>
+           
             <!--About us-->
             <div class="pt-20 text-left pl-40">
                 <h1 class="pb-3">ABOUT US.</h1>
@@ -109,140 +110,192 @@
                         <p class="ml-10 mr-8">WordPress</p>
                         <p>78%</p>
                     </div>
-                    </div>
                 </div>
             </div>   
-        </div>
-        <!--Services-->
-        <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="services">SERVICES</h1>
-        <div class="text-white flex gap-8  mx-28 mb-6">
-            <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
-                <p class="text-6xl pt-16 pb-8">W</p>
-                <p class="text-xl pb-4">Web Design</p>
-                <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                <div class="pt-8 text-sm">
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
-                </div>
-            </div>
-            <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
-                <p class="text-6xl pt-16 pb-8">D</p>
-                <p class="text-xl pb-4">Developments</p>
-                <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                <div class="pt-8 text-sm">
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
-                </div>
-            </div>
-            <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
-                <p class="text-6xl pt-16 pb-8">G</p>
-                <p class="text-xl pb-4">Graphic Design</p>
-                <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                <div class="pt-8 text-sm">
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
-                </div>
-            </div>
-            <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
-                <p class="text-6xl pt-16 pb-8">A</p>
-                <p class="text-xl pb-4">Advetising</p>
-                <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                <div class="pt-8 text-sm">
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
-                    <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
-                </div>
-            </div>
-        </div>
-        <!--Portifolio-->
-        <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="Portfolio">PORTIFOLIO</h1>
-        <div class="grid grid-cols-2 gap-8 mx-28">
-            <div>
-                <img class="w-full rounded " src="image/1.jpg" alt="GeekFolio Portfolio">
-                <div class="mt-8 flex justify-between">
-                    <div>
-                        <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
-                        <p class="text-white">GreekFolio Portfolio</p>
-                    </div>
-
-                    <div>
-                        <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
-                    </div>
-                </div>
-            </div>
-        
-            <div>
-                <img class="w-full rounded" src="image/2.jpg" alt="Luxury Modern Website">
-            
-                <div class="mt-8 flex justify-between">
-                    <div>
-                        <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
-                        <p class="text-white">Luxury Modern Website</p>
-                    </div>
-                
-                    <div>
-                        <img class="size-10"  src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!---Pictures on the second row (three pictures)-->>
-        <div class="flex gap-8 mx-28">
-            <div>
-                <img class="w-[30rem] h-[26rem] rounded-lg hover:border-2 p-2 hover:border-green-500 mb-10" src="image/3.jpg" alt="Luxury Modern Website">
-                <div class="flex justify-between">
-                    <div>
-                        <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
-                        <p class="text-white mt-10">Partiner BPO</p>
-                    </div>
-                    <div class="ml-40">
-                        <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
-                    </div>
-                    
-                </div>
-            </div>  
-            <div>
-                <img class="w-[30rem] h-[26rem] rounded-lg hover:border-2 p-2 hover:border-green-500 mb-10" src="image/4.jpg" alt="Luxury Modern Website">
-                <div class="flex justify-between">
-                    <div>
-                        <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
-                        <p class="text-white mt-10">From our gallery</p>
-                    </div>
-                    <div class="ml-40">
-                        <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
-                    </div>
-                </div>
-            </div> 
-            <div>
-                <img class="w-[30rem] h-[26rem] rounded-lg hover:border-2 p-2 hover:border-green-500 mb-10 object-cover " src="image/5.jpg" alt="Luxury Modern Website">
-                <div class="flex justify-between">
-                    <div class="block gap-10">
-                        <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
-                        <p class="text-white mt-10">Brand Identity</p>
-                    </div>
-                    <div class="ml-40">
-                        <img class="size-10 text-white" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
-                    </div>
-                </div>
-            </div>   
-        </div>
-        <!--Testimonials-->>
-        <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="testimonials">TESTIMONIALS</h1>
-        <div class="grid grid-cols-2 gap-4 text-white">
-            <div class="flex border">
-                <img class="" src="image/1(1).jpg" alt="Leonard Heiser" width="10%">
-                <div class="block">
-                    <p class="text-green-300">Leonard Heiser</p>
-                    <p>Envato customer</p>
-                </div>
-                
-            </div>
-            <div></div>
         </div>
     </div>
+    <!--Services-->
+    <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="services">SERVICES</h1>
+    <div class="text-white flex gap-8  mx-28 mb-6">
+        <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
+            <p class="text-6xl pt-16 pb-8">W</p>
+            <p class="text-xl pb-4">Web Design</p>
+            <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+            <div class="pt-8 text-sm">
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
+            </div>
+        </div>
+        <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
+            <p class="text-6xl pt-16 pb-8">D</p>
+            <p class="text-xl pb-4">Developments</p>
+            <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+            <div class="pt-8 text-sm">
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
+            </div>
+        </div>
+        <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
+            <p class="text-6xl pt-16 pb-8">G</p>
+            <p class="text-xl pb-4">Graphic Design</p>
+            <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+            <div class="pt-8 text-sm">
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
+            </div>
+        </div>
+        <div class="border border-neutral-700 rounded w-1/3 h-[22rem] px-6">
+            <p class="text-6xl pt-16 pb-8">A</p>
+            <p class="text-xl pb-4">Advetising</p>
+            <p class="text-neutral-300 text-sm">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+            <div class="pt-8 text-sm">
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">UI / UX</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Landing</button>
+                <button class="border rounded-3xl py-1 px-4 border-neutral-700 hover:bg-green-400 hover:text-black">Blog</button>
+            </div>
+        </div>
+    </div>
+    <!--Portifolio-->
+    <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="Portfolio">PORTIFOLIO</h1>
+    <div class="grid grid-cols-2 gap-8 mx-28">
+        <div>
+            <img class="w-full rounded " src="image/1.jpg" alt="GeekFolio Portfolio">
+            <div class="mt-8 flex justify-between">
+                <div>
+                    <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
+                    <p class="text-white">GreekFolio Portfolio</p>
+                </div>
+                <div>
+                    <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <img class="w-full rounded" src="image/2.jpg" alt="Luxury Modern Website">
+        
+            <div class="mt-8 flex justify-between">
+                <div>
+                    <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
+                    <p class="text-white">Luxury Modern Website</p>
+                </div>
+            
+                <div>
+                    <img class="size-10"  src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---Pictures on the second row (three pictures)-->
+    <div class="flex flex-cols-3 gap-8 mx-28 mt-10">
+        <div class="w-1/3">
+            <img class=" rounded hover:border-2 hover:border-green-500 mb-10" src="image/3.jpg" alt="Luxury Modern Website">
+            <div class="flex flex-cols-2 justify-between">
+                <div>
+                    <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
+                    <p class="text-white mt-6">Partiner BPO</p>
+                </div>
+                <div>
+                    <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow" >
+                </div>
+                
+            </div>
+        </div>  
+        <div  class="w-1/3 ">
+            <img class="rounded hover:border-2  hover:border-green-500 mb-10" src="image/4.jpg" alt="Luxury Modern Website">
+            <div class="flex justify-between">
+                <div>
+                    <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
+                    <p class="text-white mt-6">From our gallery</p>
+                </div>
+                <div>
+                    <img class="size-10" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
+                </div>
+            </div>
+        </div> 
+        <div  class="w-1/3">
+            <img class="rounded hover:border-2 hover:border-green-500 mb-10 object-cover " src="image/5.jpg" alt="Luxury Modern Website">
+            <div class="flex justify-between">
+                <div class="block gap-10">
+                    <span class="border-2 border-neutral-700 text-white rounded-2xl px-4 py-1 text-sm">Branding</span>
+                    <p class="text-white mt-6">Brand Identity</p>
+                </div>
+                <div>
+                    <img class="size-10 text-white" src="image/arrow_outward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.svg" alt="outward arrow">
+                </div>
+            </div>
+        </div>   
+    </div>
+    <!--Testimonials-->
+    <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="testimonials">TESTIMONIALS</h1>
+    <div class="grid grid-cols-2 gap-8 mx-32 mb-10" >
+        <div class="border border-neutral-800 rounded-lg px-4">
+            <div class="flex flex-cols-2">
+                    <img class="rounded" src="image/1(1).jpg" alt="Leonard Heiser" width="13%">
+                <div class="mt-10 ml-8">
+                    <p class="text-green-300">Leonard Heiser</p>
+                    <p class="text-white text-sm font-light">Envato customer</p>
+                </div>
+            </div>
+            <p class="pl-10 text-white mt-10 font-light">We have purchase well into the thousands of items, but this is without doubt one of the best we've have been lucky enough to work on, the attentio to detail apparent throughout, and the delivery is impressively intuitive.</p>
+            <img class=" size-10 mb-4 ml-auto" src="image/quote.png" alt="quote">
+        </div>
+
+        <div class="border border-neutral-800 rounded-lg px-4">
+            <div class="flex flex-cols-2">
+                    <img class="rounded" src="image/2(1).jpg" alt="Leonard Heiser" width="13%">
+                <div class="mt-10 ml-8">
+                    <p class="text-green-300">Leonard Heiser</p>
+                    <p class="text-white text-sm font-light">Envato customer</p>
+                </div>
+            </div>
+            <p class="pl-10 text-white mt-10 font-light">We have purchase well into the thousands of items, but this is without doubt one of the best we've have been lucky enough to work on, the attentio to detail apparent throughout, and the delivery is impressively intuitive.</p>
+            <img class=" size-10 mb-4 ml-auto" src="image/quote.png" alt="quote">
+        </div>
+    </div>
+    <div class="text-center text-sm">
+        <span class="text-white font-light">MORE THAN <span class="font-bold">200+ COMPANIES </span>TRUSTED US WORLDWIDE</span>
+    </div>
+    <div class="flex flex-cols-5 gap-46 mx-48 mt-10">
+        <img class="w-20 " src="image/01.png" alt="asgardia">
+        <img class="w-20 " src="image/02.png" alt="nirastate">
+        <img class="w-20 " src="image/03.png" alt="velocity9">
+        <img class="w-20 " src="image/04.png" alt="utosia">
+        <img class="w-20 " src="image/05.png" alt="kanba">
+    </div>
+    <!--Latest news-->
+    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-4 ">LATEST NEWS</h1>
+    <div>
+
+    </div>
+
+    <!--The last part-->
+    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-4 "></h1>
+    <div class="text-white grid grid-cols-2 gap-10 mx-28 mt-30">
+        <div>
+            <p class="border border-neutral-700 rounded-2xl w-32 pl-2 py-1 text-sm font-light">GET IN TOUCH</p>
+            <p class="text-6xl mt-6">Let's make your brand brilliant!</p>
+            <p class="font-light mt-6 mb-10">If you would like to work with us or just want to get in touch, we’d love to hear from you!</p>
+            <p class="text-3xl text-[#55E6A5] underline mb-16 font-bold">+1 840 841 25 69</p>
+            <div class="flex flex-cols-4 gap-10">
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>LinkedIn</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+        <div>
+            <input class="border border-neutral-700 py-4 rounded pl-4 w-74 mr-8" type="text" placeholder="Name">
+            <input class="border border-neutral-700 py-4 rounded pl-4 w-74" type="email" placeholder="Email"><br>
+            <input class="border border-neutral-700 py-4 rounded pl-4 w-full mt-6" type="text" placeholder="Subject"><br>
+            <textarea class="border border-neutral-700 w-full rounded mt-6 py-4 pl-3" name="message" placeholder="Message" rows="6" cols="9"></textarea>
+            <button class="border border:hover:bg-green-300 hover:text-black border border-neutral-700 w-full rounded mt-6 py-4" type="submit">SEND A MESSAGE</button>
+        </div>
+    </div>
+    <p class="text-white text-center mt-30">&copy; 2023 Hawke is Proudly Powered by <a class="text-green-300 underline" href="https://themeforest.net/user/themescamp">ThemesCamp</a></p>
 </body>
 </html>
