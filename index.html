@@ -13,13 +13,13 @@
     <div class="flex sticky z-10 top-0 backdrop-blur-xl">
         <h1  class="px-32 pt-6 font-semibold text-2xl text-white pb-4" id="nameOfCompany">Hawke</h1>
         <nav class="flex gap-10 pt-6 pl-20 text-white">
-            <a href="#home">HOME</a>
-            <a href="#skills">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#portifolio">PORTIFOLIO</a>
-            <a href="#testimonials">TESTIMONIALS</a>
-            <a href="">BLOG</a>
-            <a href="">CONTACT</a>
+            <a class="hover:text-green-300" href="#home">HOME</a>
+            <a class="hover:text-green-300" href="#resume">ABOUT</a>
+            <a class="hover:text-green-300" href="#services">SERVICES</a>
+            <a class="hover:text-green-300" href="#portfolio">PORTIFOLIO</a>
+            <a class="hover:text-green-300" href="#testimonials">TESTIMONIALS</a>
+            <a class="hover:text-green-300" href="#MoveToLatestNews">BLOG</a>
+            <a class="hover:text-green-300" href="#MoveToContact">CONTACT</a>
         </nav>
         <button class="mx-20 mt-3 rounded p-2 text-black border border-white bg-white mb-4 text-sm hover:bg-[rgb(29,29,29)] hover:text-white">Hire Me!</button>
     </div>
@@ -159,8 +159,8 @@
         </div>
     </div>
     <!--Portifolio-->
-    <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="Portfolio">PORTIFOLIO</h1>
-    <div class="grid grid-cols-2 gap-8 mx-28">
+    <h1 class="text-white text-3xl pb-4 mb-20 border-b border-neutral-700 mt-32 ml-28" id="portfolio">PORTIFOLIO</h1>
+    <div class="grid grid-cols-2 gap-8 mx-28" id="TwoPicturesInARow">
         <div>
             <img class="w-full rounded " src="image/1.jpg" alt="GeekFolio Portfolio">
             <div class="mt-8 flex justify-between">
@@ -191,7 +191,7 @@
     </div>
     
     <!---Pictures on the second row (three pictures)-->
-    <div class="flex flex-cols-3 gap-8 mx-28 mt-10">
+    <div class="flex flex-cols-3 gap-8 mx-28 mt-10" id="ThreePicturesInARow">
         <div class="w-1/3">
             <img class=" rounded hover:border-2 hover:border-green-500 mb-10" src="image/3.jpg" alt="Luxury Modern Website">
             <div class="flex flex-cols-2 justify-between">
@@ -235,7 +235,7 @@
     <div class="grid grid-cols-2 gap-8 mx-32 mb-10" >
         <div class="border border-neutral-800 rounded-lg px-4">
             <div class="flex flex-cols-2">
-                    <img class="rounded" src="image/1(1).jpg" alt="Leonard Heiser" width="13%">
+                    <img class="rounded w-[13%]" src="image/1(1).jpg" alt="Leonard Heiser">
                 <div class="mt-10 ml-8">
                     <p class="text-green-300">Leonard Heiser</p>
                     <p class="text-white text-sm font-light">Envato customer</p>
@@ -247,7 +247,7 @@
 
         <div class="border border-neutral-800 rounded-lg px-4">
             <div class="flex flex-cols-2">
-                    <img class="rounded" src="image/2(1).jpg" alt="Leonard Heiser" width="13%">
+                    <img class="rounded w-[13%]" src="image/2(1).jpg" alt="Leonard Heiser" >
                 <div class="mt-10 ml-8">
                     <p class="text-green-300">Leonard Heiser</p>
                     <p class="text-white text-sm font-light">Envato customer</p>
@@ -260,7 +260,7 @@
     <div class="text-center text-sm">
         <span class="text-white font-light">MORE THAN <span class="font-bold">200+ COMPANIES </span>TRUSTED US WORLDWIDE</span>
     </div>
-    <div class="flex flex-cols-5 gap-46 mx-48 mt-10">
+    <div class="flex flex-cols-5 gap-46 mx-48 mt-10"  id="MoveToLatestNews">
         <img class="w-20 " src="image/01.png" alt="asgardia">
         <img class="w-20 " src="image/02.png" alt="nirastate">
         <img class="w-20 " src="image/03.png" alt="velocity9">
@@ -268,13 +268,24 @@
         <img class="w-20 " src="image/05.png" alt="kanba">
     </div>
     <!--Latest news-->
-    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-4 ">LATEST NEWS</h1>
-    <div>
-
+    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-18">LATEST NEWS</h1>
+    <div class="grid grid-cols-3 gap-12 mx-28">
+        <div>
+            <img class="rounded" src="image/1.jpg" alt="">
+            <div>
+                12 unique examples of portfolio websites.
+            </div>
+        </div>
+        <div>
+            <img class="rounded" src="image/2.jpg" alt="">
+        </div>
+        <div>
+            <img class="rounded" src="image/3.jpg" alt="">
+        </div>
     </div>
 
     <!--The last part-->
-    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-4 "></h1>
+    <h1 class="text-3xl text-white mt-32 ml-28 border-b border-neutral-700 pb-4 mb-4" id="MoveToContact"></h1>
     <div class="text-white grid grid-cols-2 gap-10 mx-28 mt-30">
         <div>
             <p class="border border-neutral-700 rounded-2xl w-32 pl-2 py-1 text-sm font-light">GET IN TOUCH</p>
@@ -296,6 +307,6 @@
             <button class="border border:hover:bg-green-300 hover:text-black border border-neutral-700 w-full rounded mt-6 py-4" type="submit">SEND A MESSAGE</button>
         </div>
     </div>
-    <p class="text-white text-center mt-30">&copy; 2023 Hawke is Proudly Powered by <a class="text-green-300 underline" href="https://themeforest.net/user/themescamp">ThemesCamp</a></p>
+    <p class="text-white text-center mt-30 mb-10">&copy; 2023 Hawke is Proudly Powered by <a class="text-green-300 underline" href="https://themeforest.net/user/themescamp">ThemesCamp</a></p>
 </body>
 </html>
